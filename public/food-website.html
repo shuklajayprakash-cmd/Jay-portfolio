@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jay Food Store</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background: linear-gradient(180deg, #1b0d2b 0%, #250b3c 100%);
+        color: #f4f7ff;
+      }
+      .page {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 40px 24px;
+      }
+      .brand {
+        display: inline-block;
+        margin-bottom: 4px;
+        color: #8bc7ff;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(2.8rem, 5vw, 4.2rem);
+      }
+      p {
+        max-width: 680px;
+        line-height: 1.8;
+        color: rgba(244, 247, 255, 0.86);
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 14px 24px;
+        border-radius: 999px;
+        background: #7c5fff;
+        color: white;
+        text-decoration: none;
+        margin-top: 24px;
+      }
+      .hero-card {
+        margin-top: 48px;
+        padding: 28px;
+        border-radius: 28px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(124, 95, 255, 0.24);
+      }
+      .features {
+        display: grid;
+        gap: 18px;
+        margin-top: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+      .feature {
+        padding: 22px;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.06);
+      }
+      .feature h3 {
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+      }
+      .feature p {
+        margin: 0;
+        color: rgba(244, 247, 255, 0.78);
+      }
+      .footer {
+        margin-top: 60px;
+        padding-top: 36px;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      .footer a {
+        color: #5df4ff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <span class="brand">Food E-shop</span>
+      <h1>Shop delicious meals with fast checkout</h1>
+      <p>
+        Jay's food store demo website shows a modern e-commerce experience for ordering groceries and prepared meals.
+        The design is clean, responsive, and ready for customer browsing.
+      </p>
+      <a class="button" href="/" target="_blank" rel="noreferrer">Back to portfolio</a>
+
+      <div class="hero-card">
+        <h2>What you can do</h2>
+        <div class="features">
+          <div class="feature">
+            <h3>Browse fresh products</h3>
+            <p>View product cards with pricing, ratings, and add to cart actions.</p>
+          </div>
+          <div class="feature">
+            <h3>Responsive layout</h3>
+            <p>Works well on mobile, tablet, and desktop screens.</p>
+          </div>
+          <div class="feature">
+            <h3>Simple checkout</h3>
+            <p>Fast and clear purchase flow for a smooth shopping experience.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>Demo website included as the e-commerce project link in the portfolio.</p>
+        <p><a href="/">Return to Jay's portfolio</a></p>
+      </div>
+    </div>
+  </body>
+</html>
