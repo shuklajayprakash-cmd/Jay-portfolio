@@ -1,16 +1,62 @@
-# React + Vite
+# Jayprakash Shukla Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React + Vite portfolio website built to showcase skills, experience, and projects with a polished dark UI.
 
-Currently, two official plugins are available:
+![Portfolio Preview](src/assets/hero.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What this project includes
 
-## React Compiler
+- React + Vite setup for fast development
+- Responsive design for desktop and mobile screens
+- Hero section with name, role, and call-to-action buttons
+- About section with project count, strengths, and profile image
+- Experience and skills sections with clear visual cards
+- Project cards for portfolio highlights
+- Email contact button for easy communication
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots
 
-## Expanding the ESLint configuration
+### Landing section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Hero section screenshot](src/assets/hero.png)
+
+### Profile and about section
+
+![Profile screenshot](src/assets/profile.jpg)
+
+## Technologies used
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Setup instructions
+
+```bash
+git clone https://github.com/shuklajayprakash-cmd/Jay-portfolio.git
+cd Jay-portfolio
+npm install
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
+
+## Available scripts
+
+- `npm run dev` — start the local development server
+- `npm run build` — create a production build
+- `npm run preview` — preview the production build locally
+- `npm run lint` — run ESLint checks
+
+## Why this portfolio is useful
+
+This website is designed to present a frontend developer profile in a modern, professional way. It helps show your skills and recent work clearly to clients, recruiters, and employers.
+
+## Contact
+
+For collaboration or hiring, email: `shuklajayprakash879@gmail.com`
+
+---
+
+This portfolio is ready to deploy on GitHub Pages or any static hosting platform.
